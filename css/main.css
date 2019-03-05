@@ -1,3 +1,4 @@
+
 .text-center-title{
   color:#0000b3;
   text-align: center;
@@ -51,9 +52,11 @@
 .summary-correct {
   margin-top: 40px;
 }
-
 body {
-  background-image: url("/img/league.jpg");
+  background-image: url("/images/league.jpg");
   background-repeat: no-repeat;
-  height: 500%;
+  background-size: cover;
 }
+
+
+

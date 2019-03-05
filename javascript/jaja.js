@@ -1,24 +1,4 @@
-var startScreen;
-var gameHTML;
-var counter = 15;
-var questionArray = ["Who is the voice for Leona?", "What current patch is League on?", "What is the number of original champions?", 
-"Where is Riot Games headquarters?","What is the new rank that has been added?"];
 
-var answerArray = [["Wendee Lee", "Krizia Bajos", "Kelly Burge", "Rashida Clendening"], ["9.0", "9.1", "9.4", "9.3"], 
-["30", "45", "48", "40"], ["San Diego", "Los Angeles", "San Marcos", "San Jose"], ["Trash", "Iron", "Bronze", "Diamond"]];
-
-var imageArray = ["<img class='center-block img-right' src='img/lee.png'>", "<img class='center-block img-right' src='img/9.4.jpg'>",
-
-"<img class='center-block img-right' src='img/40.png'>", "<img class='center-block img-right' src='img/Los Ang.jpg'>", 
-
-"<img class='center-block img-right' src='img/iron.jpg'>"];
-var correctAnswers = ["A. Wendee Lee", "C. 9.4", "D. 40", "B. Los Angeles", "D. Beijing", "B. Iron"];
-var questionCounter = 0;
-var selecterAnswer;
-var theClock;
-var correctTally = 0;
-var incorrectTally = 0;
-var unansweredTally = 0;
 
 $(document).ready(function () {
 	function initialScreen() {
@@ -128,4 +108,24 @@ function resetGame() {
 	generateHTML();
 	timerWrapper();
 }
+var startScreen;
+var gameHTML;
+var counter = 15;
+var questionArray = ["Who is the voice for Leona?", "What current patch is League on?", "What is the number of original champions?", 
+"Where is Riot Games headquarters?","What is the new rank that has been added?"];
 
+var answerArray = [["Wendee Lee", "Krizia Bajos", "Kelly Burge", "Rashida Clendening"], ["9.0", "9.1", "9.4", "9.3"], 
+["30", "45", "48", "40"], ["San Diego", "Los Angeles", "San Marcos", "San Jose"], ["Trash", "Iron", "Bronze", "Diamond"]];
+
+var imageArray = ["<img class='center-block img-right' src='images/lee.png'>", "<img class='center-block img-right' src='images/9.4.jpg'>",
+
+"<img class='center-block img-right' src='images/40.png'>", "<img class='center-block img-right' src='images/Los Ang.jpg'>", 
+
+"<img class='center-block img-right' src='images/iron.jpg'>"];
+var correctAnswers = ["A. Wendee Lee", "C. 9.4", "D. 40", "B. Los Angeles", "D. Beijing", "B. Iron"];
+var questionCounter = 0;
+var selecterAnswer;
+var theClock;
+var correctTally = 0;
+var incorrectTally = 0;
+var unansweredTally = 0;
