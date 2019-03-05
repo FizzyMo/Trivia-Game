@@ -1,0 +1,59 @@
+.text-center-title{
+  color:#0000b3;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.text-center{
+  color:gold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 220%;
+}
+
+.main-button-container {
+  margin-top: 100px;
+  max-width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: pink;
+}
+
+
+.answer {
+  padding-top: 1%;
+  height: 45px;
+  width: 50%;
+  text-align: center;
+  color: black;
+  margin-left: 23%;
+  background-color: white;
+}
+
+.img-wrong {
+  margin-top: 40px;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
+body {
+  background-image: url("/img/league.jpg");
+  background-repeat: no-repeat;
+  height: 500%;
+}
