@@ -67,7 +67,7 @@ function generateHTML() {
 }
 
 function wait() {
-	if (questionCounter < 7) {
+	if (questionCounter < 4) {
 	questionCounter++;
 	generateHTML();
 	counter = 15;
