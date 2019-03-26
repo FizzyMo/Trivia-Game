@@ -1,0 +1,71 @@
+
+body {
+background-color: rgba(17, 70, 71, 0.699);
+
+}
+
+.btn-block {
+  font-size: 150%;
+}
+
+
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.text-center {
+  font-size: 115%;
+}
+
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: pink;
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 110%;
+  text-align: center;
+}
+
+.img-wrong {
+  margin-top: 40px;
+}
+
+.center-block.img-right {
+  width: 75%;
+  padding-top: 7%;
+}
+
+.img-fluid.max-width {
+  width: 50%;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
